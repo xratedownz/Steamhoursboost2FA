@@ -1,11 +1,5 @@
 # steamhourboost
 
-1. Run `npm install .` in script directory
-2. Install CLI tools: `npm install -g coffee-script forever`
-3. Add user accounts: `coffee users.coffee`
-4. Start boosting: `forever start -c coffee boost.coffee`
-
-Enjoy.
-
-
-Credits to frk for the first version without 2FA. https://high-minded.net/members/frk.45/
+wget https://gist.githubusercontent.com/Ar1i/8dbffabc3214792a056a33f6d28ceca3/raw/81c0cd4cab4d94fbe4105c59cbc25a056e2ca508/install-2faboost.sh
+chmod 777 install-2faboost.sh
+./install-2faboost.sh
